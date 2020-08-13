@@ -1,0 +1,44 @@
+body{
+color : lightcoral;
+font-family : arial;
+max-width : 140 px;
+margin : 100px 200px;
+padding: 100 160 px;
+}
+
+footer{
+color : #888888;
+border-top: 1px solid #eeeeee;
+margin-top: 16 px;
+padding : 16px 0;
+}
+
+header{
+margin-top : 16px;
+margin-bottom:48px;
+font-size: 35px;
+}
+
+a{
+color: #888888;
+margin-right: 16px;
+text-decoration: none;
+}
+
+img{
+    height: 350px;
+    width: 250px;
+}
+
+input{
+border: 2px solid;
+padding: 6px;
+}
+
+button{
+cursor: pointer;
+border: 1 px solid;
+background: #888888;
+color: white;
+padding: 6px;
+}
