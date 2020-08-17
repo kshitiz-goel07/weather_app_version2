@@ -42,3 +42,13 @@ background: #888888;
 color: white;
 padding: 6px;
 }
+
+a:link, a:visited {
+    color: (internal value);
+    text-decoration: underline;
+    
+  }
+  
+  a:link:active, a:visited:active {
+    color: (internal value);
+  }
