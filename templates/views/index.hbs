@@ -9,7 +9,15 @@
         <P>Use This Site To check Current Weather of Any Place</P>
 
 <form>
-    <input placeholder="Enter Location">&nbsp;&nbsp;<button>Search</button>
+    {{!-- <input placeholder="Enter Location">&nbsp;&nbsp;<button>Search</button> --}}
+    <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Enter Location..">
+      <button type="submit" class="searchButton">
+        Search
+     </button>
+   </div>
+</div>
 </form>
 <p id="message-1"></p>
 <p id="message-2"></p>
