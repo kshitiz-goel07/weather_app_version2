@@ -46,7 +46,7 @@ body{
   transform: translate(0%, 5%);
 }
 body{
-color : lightcoral;
+color : black;
 font-family : arial;
 max-width : 140 px;
 margin : 100px 200px;
@@ -54,7 +54,7 @@ padding: 100 160 px;
 }
 
 footer{
-color : #888888;
+color : #ff0066;
 border-top: 1px solid #eeeeee;
 margin-top: 16 px;
 padding : 16px 0;
@@ -90,10 +90,16 @@ color: white;
 padding: 6px;
 }
 
-a:link, a:visited {
-    color: (internal value);
+a:link  {
+    color: red;
     text-decoration: underline;
     
+  }
+  a:visited{
+    color: red;
+  }
+  a:hover{
+    color:green;
   }
   
   a:link:active, a:visited:active {
